@@ -53,7 +53,8 @@ Também dá para conferir em **Configurações → Atualizações → Verificar 
 ## Seus dados
 
 - **Seus dados de saúde ficam no seu celular.** O PepSmart não pede cadastro e não envia doses, peso, perfil ou locais de aplicação para ninguém.
-- O app só usa a internet para **verificar se há versão nova** aqui nesta página e para uma **contagem anônima de uso**: uma vez por dia, um código aleatório da instalação e a versão do app, para sabermos quantas pessoas usam. Nenhum dado de saúde vai junto.
+- O app só usa a internet para **verificar se há versão nova** aqui nesta página e para uma **contagem anônima de uso**: uma vez por dia, um código aleatório da instalação e a versão do app, para sabermos quantas pessoas usam. O mesmo código registra você no **programa de testadores do beta**. Nenhum dado de saúde vai junto.
+- **Testador do beta:** o seu código (ex.: `PEP-4K7Q-2M9X`) fica em **Configurações**. Guarde-o: quando o app virar pago, ele garante a sua assinatura de presente. Ele também vai no backup.
 - Os dados só saem do celular quando **você** exporta um backup ou um relatório em PDF.
 - Com o Health Connect, o app **só lê** peso, passos e sono, e você pode tirar a permissão quando quiser.
 
