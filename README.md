@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <b>Controle de doses de peptídeos para Android.</b><br>
+  <b>Controle de doses de peptídeos e outros medicamentos, para Android.</b><br>
   Calendário, lembretes, calculadora de seringa e de caneta, rodízio dos locais de aplicação
   e acompanhamento da sua evolução, num app simples, em português e sem cadastro.
 </p>
@@ -24,12 +24,19 @@
 ## O que o app faz
 
 - **Agenda das doses:** dose única, diária, em dias da semana, a cada X dias ou em ciclos, com aumento de dose por etapas.
+- **Do jeito que o seu medicamento vem:** pó para diluir, caneta, solução pronta (frasco ou ampola) ou comprimido, com aplicação subcutânea, intramuscular ou oral.
 - **Lembretes na hora certa:** marque **Tomei** ou **Pulei** direto na notificação ou no widget da tela inicial.
-- **Calculadora de dose:** com frasco diluído e seringa (U-100 e U-40), mostra quantas unidades puxar. Com caneta, mostra a dose cheia ou quantos cliques girar.
-- **Frasco e caneta sob controle:** quanto resta, validade, quando acaba e aviso na hora de comprar mais.
-- **Locais de aplicação:** mapa do corpo, de frente e de costas, com o rodízio sugerido para a pele descansar e o mapa de calor dos últimos 30 dias.
-- **Sua evolução:** peso com gráfico e meta, adesão às doses, nível estimado no corpo (semaglutida, tirzepatida e retatrutida) e integração com o Health Connect (balança, passos e sono).
+- **Calculadora de dose:**
+  - **Seringa** (U-100, U-40 ou em mL): quantas unidades puxar.
+  - **Caneta:** a dose cheia ou quantos cliques girar.
+  - **Comprimido:** quantos tomar (inteiro, ½ ou ¼).
+- **Modo guiado para quem está começando:** copie o rótulo do frasco (por exemplo, 15 mg / 0,5 mL) e o app explica o que ele quer dizer, mostra na seringa desenhada até onde puxar e faz a conta de volta para você conferir.
+- **Perfis para a casa toda:** acompanhe também alguém da família no mesmo celular, com tratamentos, doses e peso separados. Os lembretes de todos chegam com o nome de quem é a dose.
+- **Estoque sob controle:** quanto resta no frasco, na caneta ou na caixa, validade, quando acaba e aviso na hora de comprar mais.
+- **Locais de aplicação:** mapa do corpo, de frente e de costas, com os locais subcutâneos e intramusculares, o rodízio sugerido para a pele descansar e o mapa de calor dos últimos 30 dias.
+- **Sua evolução:** peso com gráfico e meta, adesão às doses e nível estimado no corpo de cada medicamento ao longo de todo o tratamento. Com o Health Connect, entram também a balança, os passos e o sono.
 - **Relatório em PDF** para levar ao médico, com doses, adesão e locais de um período.
+- **Do seu jeito:** Início compacto ou espaçoso, barra das abas flutuante ou inteira, luzes no fundo e um **modo econômico**, com menos efeitos para gastar menos bateria.
 - **Backup** num arquivo, para trocar de celular sem perder nada.
 - **Bloqueio com biometria**, opcional.
 
@@ -39,6 +46,7 @@
 2. Em **Assets**, toque em **`PepSmart-x.x.apk`** para baixar.
 3. Abra o arquivo baixado. Na primeira vez, o Android pede para **permitir instalar apps desta fonte** (do navegador ou do gerenciador de arquivos): permita e volte.
 4. Toque em **Instalar**.
+5. Na primeira abertura, digite o **código de testador** que você recebeu com o convite.
 
 > O Google Play Protect pode avisar que o app não é conhecido. Isso acontece com todo app instalado fora da Play Store. Toque em **Mais detalhes → Instalar mesmo assim**.
 
@@ -48,22 +56,25 @@
 
 Não precisa voltar aqui. Quando sair uma versão nova, o próprio app avisa na tela inicial: toque em **Atualizar** para ver as novidades e instalar **por cima** da versão atual. **Não desinstale antes**, ou os seus dados serão apagados.
 
-Também dá para conferir em **Configurações → Atualizações → Verificar agora**.
+Também dá para conferir em **Configurações → Atualizações → Verificar agora**, ou puxando a tela inicial para baixo.
 
 ## Seus dados
 
 - **Seus dados de saúde ficam no seu celular.** O PepSmart não pede cadastro e não envia doses, peso, altura, objetivo ou locais de aplicação para ninguém.
-- O app só usa a internet para **verificar se há versão nova** aqui nesta página e para uma **contagem de uso**: um código aleatório da instalação, a versão do app e quantas vezes ele foi aberto, para sabermos quantas pessoas usam e quanto. Nenhum dado de saúde vai junto.
+- O app só usa a internet para:
+  - **verificar se há versão nova** aqui nesta página;
+  - **consultar o prazo do beta**;
+  - fazer uma **contagem de uso**: um código aleatório da instalação, a versão do app e quantas vezes ele foi aberto, para sabermos quantas pessoas usam e quanto. Nenhum dado de saúde vai junto.
 - **Beta fechado, por convite:** na primeira abertura, o app pede o seu **código de testador** (ex.: `PEP-4K7Q-2M9X`). Peça o seu para quem te enviou o app. Ele vale para um celular só, fica em **Configurações** e vai no backup. Guarde-o: quando o app virar pago, ele garante a sua assinatura de presente.
-- Para o programa de testadores, o app envia também o código de testador, um resumo do identificador do celular e o **nome do seu perfil**, para sabermos quem é cada testador.
+- Para o programa de testadores, o app envia também o código de testador, um resumo do identificador do celular e o **nome do seu perfil**, para sabermos quem é cada testador. Com mais de um perfil, vai o nome do perfil ligado ao Health Connect, que é o dono do celular.
 - Os dados só saem do celular quando **você** exporta um backup ou um relatório em PDF.
 - Com o Health Connect, o app **só lê** peso, passos e sono, e você pode tirar a permissão quando quiser.
 
-**Dica:** faça um backup de vez em quando em **Configurações → Backup e restauração** e guarde o arquivo no Google Drive ou no WhatsApp. Se trocar ou perder o celular, os seus dados voltam com ele.
+**Dica:** faça um backup de vez em quando em **Configurações → Backup e restauração** e guarde o arquivo no Google Drive ou no WhatsApp. O backup leva todos os perfis. Se trocar ou perder o celular, os seus dados voltam com ele.
 
 ## Aviso importante
 
-O PepSmart é uma **ferramenta de organização e cálculo**. Ele **não** é dispositivo médico, **não** indica doses nem substitui a orientação de um profissional de saúde. Confira sempre os valores com quem acompanha o seu tratamento. O nível estimado no corpo é uma curva teórica, não um exame.
+O PepSmart é uma **ferramenta de organização e cálculo**. Ele **não** é dispositivo médico, **não** indica doses nem substitui a orientação de um profissional de saúde. Use sempre a dose indicada por quem acompanha o seu tratamento e, na dúvida, confirme os valores com essa pessoa ou com a farmácia. O nível estimado no corpo é uma curva teórica, não um exame.
 
 ## Novidades de cada versão
 
